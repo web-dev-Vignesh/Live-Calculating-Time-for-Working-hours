@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: antiquewhite; */
+    background-image: url("time2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.main-header{
+    background-color: rgb(78, 75, 75);
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}.ol{
+    margin-top: 80px;
+    margin-left: 40px;
+    color: #fff;
+
+}
+li:first-child{
+    margin-bottom: 20px;
+    color: rgb(11, 255, 113);
+    font-size: 30px;
+}
+li:nth-child(even){
+    margin-bottom: 20px;   
+     color: rgb(252, 0, 218);
+    font-size: 30px;
+}
+li:last-child{
+    margin-bottom: 15px;
+    color: rgb(7, 143, 255);
+    font-size: 30px;
+}
+button{
+    position: relative;
+    transition: all 1.5s;
+}
+.btn{
+    color: #fff;
+    background-color: blueviolet;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 12px;
+}
+#start{
+    position:absolute;
+    top:420px;
+    right: 440px;
+    transition: all 2.5s;
+}
+
+#pause{
+    position: absolute;
+    top:420px;
+    right: 230px;
+    transition: all 0.5s;
+}
+#reset{
+    position:absolute;
+    top:420px;
+    right: 30px;
+    transition: all 1.5s;
+}
+.btn:hover:after{
+    content: '\00bb';
+}
+#start:hover{
+    background-color: rgb(0, 255, 55);
+    color: red;
+    padding-right: 35px;
+
+}
+#pause:hover{
+    background-color: rgb(229, 255, 0);
+    color: rgb(58, 49, 49);
+    padding-right: 35px;
+
+}
+#reset:hover{
+    background-color: rgb(236, 30, 30);
+    color: #fff;
+    padding-right: 35px;
+
+}
+
+p{
+    
+    text-align: center;
+    font-size: 60px;
+    color: rgb(208, 255, 0);
+    margin-top: 40px;
+    
+}
+span{
+    border-radius: 80px;
+}
+.st{
+    background-color: rgb(92, 121, 121);
+    padding: 20px 50px;
+}
+.st:last-child{
+    color:red;
+
+}
